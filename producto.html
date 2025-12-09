@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIXELDESK - Producto Detalle</title>
+</head>
+<body>
+
+    <header>
+        <nav aria-label="Utilidades y Cuenta" class="nav-top">
+                <div class="nav-left">
+                    <form class= "search-box">
+                        <input type="text" placeholder="Buscar..." class="search-input"></label>
+
+                        <button type="reset" class="search-clear-btn">
+                            <span class="material-symbols-outlined">close</span>
+                        </button>
+
+                        <span class="search-icon"><span class="material-symbols-outlined">search</span></span>
+                    </form>
+                </div>
+
+                <div class="nav-logo">
+                    <a href="index.html" class="logo-link">
+                        <img src="imagenes/pixeldesk-logov2-banner.png" alt="Logotipo de PIXELDESK">
+                    </a>
+                </div>
+                
+                <div class="nav-right">
+                    <div class="icon-group">
+                    <a href="zona-cliente.html" class="nav-icon"><span class="material-symbols-outlined">account_circle</span>Mi Cuenta</a>
+                    <a href="carrito.html" class="nav-icon"><span class="material-symbols-outlined">shopping_cart</span></a>
+                    </div>
+                </div>
+        </nav>
+        
+        <nav aria-label="Categorías principales" class="nav_bottom">
+            <ul class="main-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="escritorios.html">Escritorios</a></li>
+                <li><a href="muebles_tv.html">Muebles TV</a></li>
+                <li><a href="estantes.html">Estantes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section aria-labelledby="detalle-producto">
+            
+            <div id="imagenes-producto">
+                <img src="imagenes/desk_maelle.png" alt="Imagen principal del Escritorio Maelle" width="450" height="450">
+            </div>
+
+            <div id="info-compra-producto">
+                
+                <h1 id="detalle-producto">Escritorio Lorem ipsum dolor</h1>
+                <p>Calificación: ★★★★★</p>
+                
+                <div>
+                    <p>Precio Regular: <del>S/XXX.XX</del></p>
+                    <p>Precio Oferta: S/XXX.XX (40% dscto.)</p>
+                    <p>Transferencia: S/XXX.XX (5% dscto. Adicional)</p>
+                </div>
+                
+                <fieldset>
+                    <legend>Color: Blanco</legend>
+                    <div>
+                        <button type="button" aria-pressed="true">Blanco</button>
+                        <button type="button">Negro</button>
+                    </div>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Ancho: 150 cm</legend>
+                    <div>
+                        <button type="button" aria-pressed="false">120 cm</button>
+                        <button type="button" aria-pressed="true">150 cm</button>
+                        <button type="button" aria-pressed="false">180 cm</button>
+                    </div>
+                </fieldset>
+                <br>
+                <form action="/anadir-carrito" method="POST">
+                    <input type="submit" value="AÑADIR AL CARRITO">
+                </form>
+
+                <div>
+                    <h2>Especificaciones</h2>
+                    <dl>
+                        <dt>Modelo</dt><dd>Maelle</dd>
+                        <dt>Color</dt><dd>Blanco</dd>
+                        <dt>Ancho</dt><dd>150 cm</dd>
+                        <dt>Alto</dt><dd>75 cm</dd>
+                        <dt>Profundidad</dt><dd>45 cm</dd>
+                        <dt>Material</dt><dd>Melamina 18 mm</dd>
+                        <dt>Entrega</dt><dd>Totalmente armado</dd>
+                    </dl>
+                </div>
+                
+            </div>
+            
+        </section>
+
+        <section aria-labelledby="descripcion-completa">
+            <h2 id="descripcion-completa">Descripción Completa</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem felis nec erat. Aliquam egestas, velit at condimentum placerat, sem sapien laoreet mauris, dictum.</p>
+        </section>
+
+
+        <section aria-label="Beneficios exclusivos de PixelDesk" class="benefits-section">
+            <h2>Beneficios exclusivos de PixelDesk</h2>
+            
+            <div class="benefits-container">
+                
+                <article class="benefit-item">
+                    <span class="material-symbols-outlined benefit-icon">carpenter</span> 
+                    <h3>Fabricantes Directos</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut.</p>
+                </article>
+                
+                <article class="benefit-item">
+                    <span class="material-symbols-outlined benefit-icon">verified_user</span>
+                    <h3>Calidad y Seguridad</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut.</p>
+                </article>
+                
+                <article class="benefit-item">
+                    <span class="material-symbols-outlined benefit-icon">credit_card</span> 
+                    <h3>Pagos Flexibles</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut.</p>
+                </article>
+                
+            </div>
+        </section>
+
+        <section aria-labelledby="cta-proyecto" class="cta-banner-interno">
+    
+            <a href="contacto.html" class="cta-link-wrapper"> 
+                
+                <div class="banner-content">
+                    <h2 id="cta-proyecto">Realizamos tu Proyecto</h2>
+                    <p>ENVÍANOS CUALQUIER MODELO Y LO COTIZAMOS A UN PRECIO ESPECIAL</p>
+                    </div>
+
+                <img src="imagenes/cotiza-int.png" alt="Banner para cotización de proyectos especiales">
+            </a>
+
+        </section>
+
+        <section>
+            <h2>¡SUSCRIBETE PARA ACCEDER A PRIVILEGIOS EXCLUSIVOS!</h2>
+            <form action="/suscribir" method="POST" class="suscribe-form">
+                <input type="email" id="email-suscripcion" name="email" required placeholder="Correo electrónico">
+                <input type="submit" value="SUSCRIBIRSE">
+            </form>
+        </section>
+
+    </main>
+
+     <footer>
+        
+        <div class="footer-container">
+
+            <div class="footer-col-info">
+                <h3>PIXELDESK</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut</p>
+                  
+            </div>
+
+            <nav aria-label="Enlaces de Nosotros" class="footer-col-nav">
+                <h3>Nosotros</h3>
+                <ul>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="#">Términos y Condiciones</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                </ul>
+            </nav>
+
+            <nav aria-label="Enlaces de Clientes" class="footer-col-nav">
+                <h3>Clientes</h3>
+                <ul>
+                    <li><a href="#">Mi Cuenta</a></li>
+                    <li><a href="#">Seguimiento de Pedidos</a></li>
+                    <li><a href="#">Libro de reclamaciones</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="phone-number">999 999 999</p> 
+    
+            <nav aria-label="Redes Sociales">
+                <ul>
+                    <li><a href="#"><img src="logos/instagram.png" alt="Ícono de Instagram"></a></li>
+                    <li><a href="#"><img src="logos/facebook.png" alt="Ícono de Facebook"></a></li>
+                    <li><a href="#"><img src="logos/tik-tok.png" alt="Ícono de TikTok"></a></li>
+                </ul>
+             </nav>
+    
+            <p>&copy; 2025 PIXELDESK. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
